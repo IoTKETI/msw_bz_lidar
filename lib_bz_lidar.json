@@ -1,0 +1,8 @@
+{
+  "name": "msw_bz_lidar",
+  "target": "armv6",
+  "description": "[name] [serial_no] [baudrate]",
+  "scripts": "./lib_bz_lidar 1 115200",
+  "data": ["DISTANCE"],
+  "control": ["Control_ONOFF"]
+}
