@@ -1,8 +1,14 @@
 {
-  "name": "msw_bz_lidar",
-  "target": "armv6",
-  "description": "[name] [serial_no] [baudrate]",
-  "scripts": "./lib_bz_lidar 1 115200",
-  "data": ["DISTANCE"],
-  "control": ["Control_ONOFF"]
+	"name"			:	"lib_bz_lidar",
+	"target"		:	"armv6",
+	"description"	:	"[name]",
+	"scripts"		:	"./lib_bz_lidar",
+	"data"			:
+					[	
+						"state"									// {"Lidar": "ON/OFF", "Distance": (float) mm}
+					],
+	"control"		:
+					[
+						"Control_ONOFF"							// Control_ONOFF	= ON / OFF
+					]
 }
