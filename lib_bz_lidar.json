@@ -5,7 +5,7 @@
 	"scripts"		:	"./lib_bz_lidar",
 	"data"			:
 					[	
-						"state"									// {"Lidar": "ON/OFF", "Distance": (float) mm}
+						"State"									// {"Lidar": "ON/OFF", "Distance": (float) mm}
 					],
 	"control"		:
 					[
