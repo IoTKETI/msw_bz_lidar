@@ -1,14 +1,8 @@
 {
-	"name"			:	"lib_bz_lidar",
-	"target"		:	"armv6",
-	"description"	:	"[name]",
-	"scripts"		:	"./lib_bz_lidar",
-	"data"			:
-					[	
-						"State"									// {"Lidar": "ON/OFF", "Distance": (float) mm}
-					],
-	"control"		:
-					[
-						"Control_ONOFF"							// Control_ONOFF	= ON / OFF
-					]
+    "name"          :   "lib_bz_lidar",
+    "target"        :   "armv6",
+    "description"   :   "[name]",
+    "scripts"       :   "./lib_bz_lidar",
+    "data"          :	["State"],
+    "control"       :	["Control_ONOFF"]
 }

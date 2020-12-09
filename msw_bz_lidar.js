@@ -51,9 +51,9 @@ catch (e) {
     add_lib = {
         name: 'msw_bz_lidar',
         target: 'armv6',
-        description: "[name] [serial_no] [baudrate]",
-        scripts: './lib_bz_lidar 1 115200',
-        data: ['DISTANCE'],
+        description: "[name]",
+        scripts: './lib_bz_lidar',
+        data: ['State'],
         control: ['Control_ONOFF']
     };
     config.lib.push(add_lib);
