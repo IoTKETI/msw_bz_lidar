@@ -63,10 +63,12 @@ catch (e) {
 var msw_sub_muv_topic = [];
 
 var msw_sub_fc_topic = [];
-msw_sub_fc_topic.push('/Mobius/' + config.gcs + '/Drone_Data/' + config.drone + '/heartbeat');
-msw_sub_fc_topic.push('/Mobius/' + config.gcs + '/Drone_Data/' + config.drone + '/global_position_int');
-msw_sub_fc_topic.push('/Mobius/' + config.gcs + '/Drone_Data/' + config.drone + '/attitude');
-msw_sub_fc_topic.push('/Mobius/' + config.gcs + '/Drone_Data/' + config.drone + '/battery_status');
+msw_sub_fc_topic.push('/TELE/drone/gpi');
+msw_sub_fc_topic.push('/TELE/drone/hb');
+msw_sub_fc_topic.push('/TELE/drone/wp_yaw_behavior');
+msw_sub_fc_topic.push('/TELE/drone/distance_sensor');
+msw_sub_fc_topic.push('/TELE/drone/timesync');
+msw_sub_fc_topic.push('/TELE/drone/system_time');
 
 var msw_sub_lib_topic = [];
 
